@@ -17,7 +17,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/aosap/sepolicy/exynos/dynamic \
     device/aosap/sepolicy/exynos/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/aosap/sepolicy/exynos/dynamic \
     device/aosap/sepolicy/exynos/vendor
 endif
